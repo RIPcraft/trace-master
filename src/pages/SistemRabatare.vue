@@ -1,6 +1,6 @@
 <template>
   <q-page padding>
-    <control-panel>
+    <!-- <control-panel>
       <template slot="viewPort">
         <circle stroke-width="10"
                 stroke="green"
@@ -21,18 +21,16 @@
         <q-input type="number" v-model="cy" />
         <q-input type="number" v-model="r" />
       </template>
-    </control-panel>
+    </control-panel> -->
   </q-page>
 </template>
 
 <script>
-import ControlPanel from 'components/control_panel/ControlPanel.vue';
 // import NumericRange from 'components/NumericRange.vue';
 
 export default {
   name: 'SistemRabatare',
   components: {
-    ControlPanel,
     // NumericRange,
   },
   data() {
